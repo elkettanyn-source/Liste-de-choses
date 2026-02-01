@@ -1,6 +1,5 @@
 {
   "homepage": "https://elkettanyn-source.github.io/Liste-de-choses",
-
   "name": "listechoses",
   "private": true,
   "version": "0.0.0",
@@ -12,13 +11,13 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "lucide-react": "^0.563.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
